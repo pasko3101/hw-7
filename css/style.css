@@ -89,14 +89,45 @@ body {
     font-size: 16px;
     line-height: 26px;
     color: #727272;
-    margin: 50px 0 0;
+    margin: 50px 0 100px;
 }
-.footer {
+.numbers {
+    background: #34547A;
+    padding: 100px 409px;
+    text-align: left;
+}
+.card {
+    display: inline-block;
+    font-size: 0;
+    width: 141px;
+}
+.card + .card {
+    margin-left: 45px;
+}
+.img {
+    display: inline-block;
+    margin-right: 20px;
+}
+.blok {
+    display: inline-block;
+    font-size: 16px;
+}
+.amount {
+    font-weight: 500;
+    line-height: 25px;
+    color: #FFF;
+    margin: 0;
+}
+.unit {
+    display: inline-block;
+    line-height: 26px;
+    color: #FFF;
+    margin: 0;
 
 }
 .video {
 
 }
-.numbers {
+.footer {
 
 }
