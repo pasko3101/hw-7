@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/Roboto-Medium.ttf");
+    font-weight: 500;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f9f9f9;
+}
+.desktop {
+    width: 1920px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.first__screen {
+    background: #EEEFF1;
+
+}
+.footer {
+
+}
+.video (
+
+)
+.numbers [
+    
+]
