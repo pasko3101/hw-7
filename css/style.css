@@ -95,10 +95,10 @@ body {
     background: #34547A;
     padding: 100px 409px;
     text-align: left;
+    font-size: 0;
 }
 .card {
     display: inline-block;
-    font-size: 0;
     width: 141px;
 }
 .card + .card {
@@ -110,23 +110,40 @@ body {
 }
 .blok {
     display: inline-block;
-    font-size: 16px;
 }
 .amount {
     font-weight: 500;
+    font-size: 21px;
     line-height: 25px;
     color: #FFF;
     margin: 0;
 }
 .unit {
     display: inline-block;
+    font-size: 16px;
     line-height: 26px;
     color: #FFF;
     margin: 0;
-
 }
 .video {
-
+    background: #EEEFF1;
+    text-align: center;
+    padding: 100px 0;
+    font-size: 0;
+}
+.subject {
+    margin: 0 auto 50px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000;
+}
+.tagline {
+    margin: 0 auto 57px;
+    width: 540px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
 }
 .footer {
 
