@@ -127,7 +127,6 @@ body {
 }
 .video {
     background: #EEEFF1;
-    text-align: center;
     padding: 100px 0;
     font-size: 0;
 }
@@ -146,5 +145,23 @@ body {
     color: #727272;
 }
 .footer {
-
+    
 }
+.footer__block {
+    padding: 50px 406px;
+    background: #34547A;
+    font-size: 0;
+    text-align: left;
+}
+.name {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFF;
+    margin: 0 0 20px;
+}
+.copy {
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFF;
+    margin: 0;
