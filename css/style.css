@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 @font-face {
@@ -13,44 +15,41 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: #f9f9f9;
-}
-.desktop {
     margin: 0 auto;
     text-align: center;
 }
+button,
+input {
+    font-family: "Roboto", sans-serif;
+}
 .blok__fs {
-    width: 100%;
     background: #EEEFF1;
+    padding: 79px 0 141px;
+    margin-bottom: 112px;
+    font-size: 0;
 }
 .blok__fs__content {
     width: 1110px;
     margin: 0 auto;
     text-align: left;
-    
-}
-.first__screen {
-    padding: 80px 0 140px;
-    margin-bottom: 112px;
 }
 .nav {
-    font-size: 0;
-}
-.nav__link {
     font-size: 16px;
     display: inline-block;
     text-decoration: none;
+    text-transform: uppercase;
     line-height: 26px;
     letter-spacing: 0.1em;
     color: #000;
 }
-.nav__link + .nav__link {
-    margin-left: 42px;
-}
-#home {
+.nav:hover {
     font-weight: 500;
     line-height: 26px;
     letter-spacing: 0.1em;
     color: #34547A;
+}
+.nav + .nav {
+    margin-left: 42px;
 }
 .title {
     font-weight: 500;
@@ -59,11 +58,13 @@ body {
     color: #000;
     margin: 162px 0 60px;
 }
-.text {
+.texts {
     width: 540px;
     font-size: 16px;
     line-height: 26px;
     color: #727272;
+}
+.text {
     margin: 0;
 }
 .hdr__btn {
@@ -77,35 +78,27 @@ body {
     letter-spacing: 0.1em;
     color: #FFF;
     padding: 20px 0;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 .about__me {
-    margin: 0 auto;
-    width: 540px;
-
-}
-.caption {
     font-weight: 500;
     font-size: 32px;
     line-height: 38px;
     color: #000;
-    margin: 0;
 }
 .sbttl {
-    font-size: 16px;
-    line-height: 26px;
-    color: #727272;
-    margin: 50px 0 100px;
+    margin: 50px auto 0;
 }
-.blok__numbers {
+.numbers {
     width: 100%;
     background: #34547A;
+    margin-top: 100px;
 }
-.blok__numbers__content {
+.numbers__content {
     width: 1110px;
     margin: 0 auto;
     text-align: left;
-}
-.numbers {
     padding: 100px 0;
     text-align: left;
     font-size: 0;
@@ -117,22 +110,24 @@ body {
 .card + .card {
     margin-left: 45px;
 }
-.img {
+.img__numders {
     display: inline-block;
     margin-right: 20px;
 }
-.blok {
+.blok__numders {
     display: inline-block;
+    vertical-align: top;
 }
-.amount {
+.amount__numders {
+    display: block;
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
     color: #FFF;
     margin: 0;
 }
-.unit {
-    display: inline-block;
+.unit__numders {
+    display: inline;
     font-size: 16px;
     line-height: 26px;
     color: #FFF;
@@ -144,7 +139,7 @@ body {
     font-size: 0;
 }
 .subject {
-    margin: 0 auto 50px;
+    margin-bottom: 50px;
     font-weight: 500;
     font-size: 32px;
     line-height: 38px;
@@ -152,34 +147,25 @@ body {
 }
 .tagline {
     margin: 0 auto 57px;
-    width: 540px;
-    font-size: 16px;
-    line-height: 26px;
-    color: #727272;
 }
 .footer {
-    width: 100%;
     background: #34547A;    
 }
-.footer__block {
+.footer__content {
     width: 1110px;
     margin: 0 auto;
-    text-align: left;
     padding: 50px 0;
-}
-.footer__block__comtent {
-    font-size: 0;
     text-align: left;
+    font-size: 0;
 }
 .name {
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
     color: #FFF;
-    margin: 0 0 20px;
+    margin-bottom: 20px;
 }
 .copy {
     font-size: 13px;
     line-height: 21px;
     color: #FFF;
-    margin: 0;
