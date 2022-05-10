@@ -169,3 +169,19 @@ input {
     font-size: 13px;
     line-height: 21px;
     color: #FFF;
+}
+.background-image {
+    width: 1110px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(../img/video.png);
+}
+.padding-top {
+    width: 100px;
+    margin: 0 auto;
+    padding-top: 250px;
+}
+.play__button {
+    margin-top: 0 auto;
+    cursor: pointer;
+}
